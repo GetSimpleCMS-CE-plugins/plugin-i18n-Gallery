@@ -48,7 +48,7 @@
     }
     $settings = i18n_gallery_settings(true);
   } else if (isset($_POST['save'])) {
-    $settings = [];
+    $settings = array();
     foreach ($_POST as $key => $value) {
       if (substr($key,0,5) == 'post-') $settings[substr($key,5)] = $value;
     }
