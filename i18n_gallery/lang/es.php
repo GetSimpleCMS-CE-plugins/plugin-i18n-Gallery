@@ -79,4 +79,6 @@ $i18n = array(
   , 'UNDO_SETTINGS_SUCCESS' => "Las opciones se han restablecido correctamente."
   , 'UNDO_SUCCESS' => "La galería se ha restablecido correctamente."
   , 'VIEWGALLERY_TITLE' => "Ver galería"
+  , 'PAGESIZE' => "Tamaño de la página"
+  , 'PAGIFY' => "Paginación"
 );
